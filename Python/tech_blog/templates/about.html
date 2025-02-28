@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block body %}
+        <!-- Page Header-->
+        <!-- <header class="masthead" style="background-image: url('static/assets/img/about-bg.jpg')"> -->
+            <!-- <header class="masthead" style="background-image: url('{{ url_for('static', filename='assets/img/about-bg.jpg') }}')"></header> -->
+             <header class="masthead" style="background-image: url('{{ url_for('static', filename='assets/img/about-bg.jpg') }}');"></header>
+
+             <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading text-center">
+                            <h1>About Me</h1>
+                            <span class="subheading">This is what I do.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </header>
+            
+            <!-- Main Content -->
+            <main class="mb-4">
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-7 text-center">
+                            <div class="about-card">
+                                <h1 class="text-warning">🔥 Satyam Dubey - Python Developer 🔥</h1>
+                                <!-- <p>{{ params['about_text'] }}</p> call some thing from your json it is cofig -->
+                                <p class="lead">🚀 Currently pursuing BSc IT at <b>Cimage College, Patna</b>.</p>
+                                <p>💻 Passionate about coding, development, and tech innovations.</p>
+                                <p>🎯 Enthusiastic, energetic, and always ready to explore new technologies.</p>
+                                <div class="contact mt-4">
+                                    <p><strong>📍 Location:</strong> Patna, Viaksh Nagar</p>
+                                    <p><strong>📞 Contact:</strong> <a href="tel:+917643869052">7643869052</a></p>
+                                    <p><strong>📧 Email:</strong> <a href="mailto:dubeysatyam3635@gmail.com">dubeysatyam3635@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            
+        {% endblock %}

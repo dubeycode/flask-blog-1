@@ -1,0 +1,20 @@
+{
+    "params":{
+      "local_server":"True",
+      "local_uri":"mysql+pymysql://root:@localhost/byteverse",
+      "prod_uri":"'mysql+pymysql://root:@localhost/byteverse'",
+      "tw_url":"https://x.com/Dube72281Satyam",
+      "git_hub_url":"https://github.com/",
+      "linkdin_url":"https://www.linkedin.com/in/satyam-dubey-863a68304/",
+      "gmail_user":"dubeysatyam3635@gmail.com",
+      "gmail_pass":"jkop tbbi wxni agtc",
+      "blog":"Byteverse",
+      "about_text": "",
+      "no_of_posts":"2",
+      "admin_user":"dubey@",
+      "admin_password":"123456789",
+      "uplod_location":"D:\\Python\\tech_blog\\static\\assets\\img"
+      
+
+    }
+}
