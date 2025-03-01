@@ -11,8 +11,8 @@
         "blog": "Byteverse",
         "about_text": "",
         "no_of_posts": "2",
-        "admin_user": "dubey@",
-        "admin_password": "123456789",
+        "admin_user": "dubey@20",
+        "admin_password": "flask_pass",
         "uplod_location": "static/assets/img"
     }
 }

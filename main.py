@@ -17,10 +17,8 @@ from flask_migrate import Migrate
 try:
     with open(r"./config.json", "r") as c:
         params = json.load(c)["params"]
-    print(params)  # Add this line to verify the contents
 except Exception as e:
     print("Error loading config.json:", e)
-    params = {}
 
 
 local_server = "True"
@@ -29,7 +27,7 @@ app = Flask(__name__)
 app.secret_key = "4f3c2b1a5d6e7f8g9h0i1j2k3l4m5n6o"  # Strong Secret Key
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///byteverse.db"
 db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+migrate = Migrate(app, db)  # Add this line
 # app.config['UPLOAD_FOLDER']=params['uplod_location']
 import os
 
